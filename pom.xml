@@ -9,11 +9,11 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.mycompany</groupId>
-    <artifactId>SecurityDemo</artifactId>
+    <artifactId>StartJava</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>TrackerPlus</name>
+    <name>StartJava</name>
     <packaging>jar</packaging>
-    <description>Backend for TrackerPlus</description>
+    <description>Backend for StartJava</description>
     <properties>
         <java.version>17</java.version>
     </properties>
@@ -38,14 +38,17 @@
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
+            <version>1.18.30</version>
             <optional>true</optional>
         </dependency>
+
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-devtools</artifactId>
             <scope>runtime</scope>
             <optional>true</optional>
         </dependency>
+
         <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
